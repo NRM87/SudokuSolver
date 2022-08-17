@@ -2,6 +2,7 @@
 program to automatically solve sudoku puzzles given 9x9 int array
 
     public class Sudoku {
+        //Note: 0 represents an unsolved cell
         private int[][] grid;
         public Sudoku(int[][] grid){ //basic constructor using a double array as the grid
             this.grid = grid;
